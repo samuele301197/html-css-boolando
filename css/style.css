@@ -14,6 +14,7 @@ img{
 
 
 /* COMMON */
+
 .container{
     width: 80%;
     max-width: 1000px;
@@ -27,8 +28,8 @@ img{
 }
 
 .column{
-    /* debug */
-    border: 1px solid black;
+    /* debug
+    border: 1px solid black; */
     width:calc(100% / 3 - (5px * 3));
     position: relative;
     margin: 5px;
@@ -95,9 +96,6 @@ ul{
     color: red;
 }
 
-.list-content{
-
-}
 
 .discount-30{
     position: absolute;
@@ -108,5 +106,18 @@ ul{
     padding: 5px;
 }
 
+.img-2 {
+    position: absolute;
+    left: 0;
+}
+
+.column:hover .img-2 {
+    display: none;
+}
+
 /* FINE COMMON */
+
+
+
+
 
